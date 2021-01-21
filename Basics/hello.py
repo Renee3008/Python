@@ -1,7 +1,14 @@
-print("Hello World")
-mylst=[1,2,3,4,5]
-myLst2=[6,7,8,9]
-mylst3=mylst+myLst2
-print (mylst3)
 
-print (mylst3[1])
+class Car:
+    def Color(bodycolor):
+        print("Car color is "+bodycolor)
+
+
+#Car.Color("RED")
+
+class Car2:
+    def Size(bodycolor):
+        print("Car2 color is "+bodycolor)
+
+Car2.Size("Size")
+
